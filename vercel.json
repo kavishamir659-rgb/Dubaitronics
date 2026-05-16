@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "public": true,
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/Dubaitronics.html"
+    },
+    {
+      "src": "/(.*\\.html?)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/sitemap\\.xml",
+      "dest": "/sitemap.xml"
+    },
+    {
+      "src": "/sw\\.js",
+      "dest": "/sw.js"
+    }
+  ]
+}
